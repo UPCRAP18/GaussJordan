@@ -218,7 +218,10 @@
           </grid>
         </constraints>
         <properties>
-          <gridColor color="-1"/>
+          <background color="-6145"/>
+          <foreground color="-16777216"/>
+          <gridColor color="-16777216"/>
+          <selectionForeground color="-16777216"/>
         </properties>
       </component>
       <component id="5ec42" class="javax.swing.JTable" binding="tbMatrixTwo">
