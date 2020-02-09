@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f1fea64-2672-41ec-8832-e35ca8fd6008" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/ralvarez18.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GaussJordan/GaussJordan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GaussJordan/GaussJordan.class" afterDir="false" />
@@ -33,29 +33,32 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="false" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.STATE" value="right" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="177" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE" value="left" />
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="365" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="270" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
     <configuration name="GaussJordan" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GaussJordan" />
       <module name="GaussJordan" />
+      <shortenClasspath name="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="GaussJordan" />
+      <module name="GaussJordan" />
+      <shortenClasspath name="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -75,22 +78,23 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="283" y="49" key="#Project_Structure" timestamp="1580861344023">
+    <state x="283" y="49" key="#Project_Structure" timestamp="1580949731262">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="283" y="49" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1580861344023" />
-    <state x="147" y="46" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580862227042">
+    <state x="283" y="49" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1580949731262" />
+    <state x="147" y="46" width="1071" height="698" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580950055124">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="147" y="46" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1580862227042" />
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1580929597088">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="147" y="46" width="1071" height="698" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1580950055124" />
+    <state x="544" y="170" key="#com.intellij.ide.util.MemberChooser" timestamp="1580951237218">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state x="544" y="170" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1580951237218" />
     <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580929597088" />
-    <state x="420" y="175" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1580862203787">
+    <state x="420" y="175" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1580949952285">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="420" y="175" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.768@0.0.1366.768" timestamp="1580862203787" />
+    <state x="420" y="175" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.768@0.0.1366.768" timestamp="1580949952285" />
     <state x="811" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580929402136">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -99,30 +103,30 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="470" y="179" key="#com.intellij.uiDesigner.palette.ComponentItemDialog/0.0.1366.768@0.0.1366.768" timestamp="1580862981455" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1580931536408">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1324" height="183" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1580875205692" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580931536408" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1580931536408">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1324" height="183" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1580875205690" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580931536408" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1580931536408">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1324" height="183" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1580875205689" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580931536408" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1580931536408">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1324" height="183" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1580875205691" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580931536408" />
-    <state x="384" y="46" key="SettingsEditor" timestamp="1580867446322">
+    <state width="1324" height="183" key="GridCell.Tab.0.bottom" timestamp="1581036646603">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="384" y="46" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1580867446322" />
+    <state width="1324" height="183" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581036646603" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580931536408" />
+    <state width="1324" height="183" key="GridCell.Tab.0.center" timestamp="1581036646601">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="183" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581036646601" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580931536408" />
+    <state width="1324" height="183" key="GridCell.Tab.0.left" timestamp="1581036646600">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="183" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581036646600" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580931536408" />
+    <state width="1324" height="183" key="GridCell.Tab.0.right" timestamp="1581036646602">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="183" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581036646602" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580931536408" />
+    <state x="171" y="22" key="SettingsEditor" timestamp="1581027289089">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="171" y="22" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1581027289089" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1580873543136">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
