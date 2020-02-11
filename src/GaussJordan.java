@@ -1,7 +1,4 @@
 import com.google.common.io.Files;
-import sun.rmi.transport.ObjectTable;
-
-import javax.print.DocFlavor;
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import javax.swing.table.DefaultTableModel;
@@ -9,10 +6,7 @@ import java.awt.*;
 import java.awt.datatransfer.DataFlavor;
 import java.awt.dnd.*;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.security.spec.RSAOtherPrimeInfo;
-import java.util.*;
 import java.util.List;
 
 public class GaussJordan {
@@ -105,8 +99,7 @@ public class GaussJordan {
                 }
             }
         });
-
-
+        
         new DropTarget(txtMatrixOne, new DropTargetListener() {
             @Override
             public void dragEnter(DropTargetDragEvent dtde) {
@@ -238,25 +231,30 @@ public class GaussJordan {
 
         }catch (IOException ex){
             System.out.println(ex);
+            JOptionPane.showMessageDialog(this.JPMain, "Ha ocurrido un error al obtener los datos del archivo", "Error", JOptionPane.ERROR_MESSAGE);
         }
 
     }
 
     private void performSum(){
-        if(colsOne == colsTwo && rowsOne == rowsTwo){
-            //tmResult = new DefaultTableModel(rowsOne,colsOne);
+        if(colsOne == colsTwo && rowsOne == rowsTwo) {
             tmResult.setColumnCount(colsOne);
             tmResult.setRowCount(rowsOne);
-            for (int i = 0; i < rowsOne; i++){
-                for (int j = 0; j < colsOne; j++) {
-                    double val_1 = tmOne.getValueAt(i,j) != null ? Double.parseDouble(String.valueOf(tmOne.getValueAt(i,j))) : 0;
-                    double val_2 = tmTwo.getValueAt(i,j) != null ? Double.parseDouble(String.valueOf(tmTwo.getValueAt(i,j))) : 0;
-                    double temp = val_1 + val_2;
-                    tmResult.setValueAt(temp, i, j);
+            try {
+                for (int i = 0; i < rowsOne; i++) {
+                    for (int j = 0; j < colsOne; j++) {
+                        double val_1 = tmOne.getValueAt(i, j) != null ? Double.parseDouble(tmOne.getValueAt(i, j).toString()) : 0;
+                        double val_2 = tmTwo.getValueAt(i, j) != null ? Double.parseDouble(tmTwo.getValueAt(i, j).toString()) : 0;
+                        double temp = val_1 + val_2;
+                        tmResult.setValueAt(temp, i, j);
+                    }
                 }
+                tbMatrixResult.setModel(tmResult);
+            } catch (NumberFormatException nex) {
+                JOptionPane.showMessageDialog(this.JPMain,
+                        "La matriz solo debe de contener numeros", "Error", JOptionPane.ERROR_MESSAGE);
             }
-            tbMatrixResult.setModel(tmResult);
-        }else{
+        }else {
             JOptionPane.showMessageDialog(this.JPMain, "Las matrices deben de tener la misma dimension", "Error", JOptionPane.WARNING_MESSAGE);
         }
     }
@@ -266,15 +264,20 @@ public class GaussJordan {
             //tmResult = new DefaultTableModel(rowsOne,colsOne);
             tmResult.setColumnCount(colsOne);
             tmResult.setRowCount(rowsOne);
-            for (int i = 0; i < rowsOne; i++){
-                for (int j = 0; j < colsOne; j++) {
-                    double val_1 = tmOne.getValueAt(i,j) != null ? Double.parseDouble(String.valueOf(tmOne.getValueAt(i,j))) : 0;
-                    double val_2 = tmTwo.getValueAt(i,j) != null ? Double.parseDouble(String.valueOf(tmTwo.getValueAt(i,j))) : 0;
-                    double temp = val_1 - val_2;
-                    tmResult.setValueAt(temp, i, j);
+            try {
+                for (int i = 0; i < rowsOne; i++) {
+                    for (int j = 0; j < colsOne; j++) {
+                        double val_1 = tmOne.getValueAt(i, j) != null ? Double.parseDouble(tmOne.getValueAt(i, j).toString()) : 0;
+                        double val_2 = tmTwo.getValueAt(i, j) != null ? Double.parseDouble(tmTwo.getValueAt(i, j).toString()) : 0;
+                        double temp = val_1 - val_2;
+                        tmResult.setValueAt(temp, i, j);
+                    }
                 }
+                tbMatrixResult.setModel(tmResult);
+            } catch (NumberFormatException nex) {
+                JOptionPane.showMessageDialog(this.JPMain,
+                        "La matriz solo debe de contener numeros", "Error", JOptionPane.ERROR_MESSAGE);
             }
-            tbMatrixResult.setModel(tmResult);
         }else{
             JOptionPane.showMessageDialog(this.JPMain, "Las matrices deben de tener la misma dimension", "Error", JOptionPane.WARNING_MESSAGE);
         }
@@ -284,18 +287,24 @@ public class GaussJordan {
         if(colsOne == rowsTwo){
             tmResult.setRowCount(rowsOne);
             tmResult.setColumnCount(colsTwo);
-            for (int i = 0; i < rowsOne; i++) {
-                for (int j = 0; j < colsTwo; j++) {
-                    double val = 0;
-                    for (int k = 0; k < colsOne; k++) {
-                        double val_1 = tmOne.getValueAt(j,k) != null ? Double.parseDouble(String.valueOf(tmOne.getValueAt(i,k))) : 0;
-                        double val_2 = tmTwo.getValueAt(k,j) != null ? Double.parseDouble(String.valueOf(tmTwo.getValueAt(k,j))) : 0;
-                        val += val_1*val_2;
+            try {
+                for (int i = 0; i < rowsOne; i++) {
+                    for (int j = 0; j < colsTwo; j++) {
+                        double val = 0;
+                        for (int k = 0; k < colsOne; k++) {
+                            double val_1 = tmOne.getValueAt(j,k) != null ? Double.parseDouble(tmOne.getValueAt(i,k).toString()) : 0;
+                            double val_2 = tmTwo.getValueAt(k,j) != null ? Double.parseDouble(tmTwo.getValueAt(k,j).toString()) : 0;
+                            val += val_1*val_2;
+                        }
+                        tmResult.setValueAt(val,i,j);
                     }
-                    tmResult.setValueAt(val,i,j);
                 }
+                tbMatrixResult.setModel(tmResult);
+            }catch (NumberFormatException ex){
+                JOptionPane.showMessageDialog(this.JPMain,
+                        "La matriz solo debe de contener numeros", "Error", JOptionPane.ERROR_MESSAGE);
             }
-            tbMatrixResult.setModel(tmResult);
+
         }else {
             JOptionPane.showMessageDialog(this.JPMain,
                     "El numero de columnas de la primer matriz debe de coincidir con el numero de filas de la segunda matriz", "Advertencia",
@@ -397,11 +406,16 @@ public class GaussJordan {
     }
 
     private void setValuesMatrix(int filas, int cols){
-        for (int i = 0; i < filas; i++){
-            for (int j = 0; j < cols; j++){
-                float value = this.tmOne.getValueAt(i,j) != null ? Float.parseFloat(this.tmOne.getValueAt(i,j).toString()) : 0;
-                this.matrix_result[i][j] = value;
+        try {
+            for (int i = 0; i < filas; i++){
+                for (int j = 0; j < cols; j++){
+                    float value = this.tmOne.getValueAt(i,j) != null ? Float.parseFloat(this.tmOne.getValueAt(i,j).toString()) : 0;
+                    this.matrix_result[i][j] = value;
+                }
             }
+        }catch (NumberFormatException ex){
+            JOptionPane.showMessageDialog(this.JPMain,
+                    "La matriz solo debe de contener numeros", "Error", JOptionPane.ERROR_MESSAGE);
         }
     }
 
