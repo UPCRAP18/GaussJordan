@@ -7,10 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f1fea64-2672-41ec-8832-e35ca8fd6008" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/GaussJordan_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GaussJordan/GaussJordan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GaussJordan/GaussJordan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GaussJordan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GaussJordan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GaussJordan.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/GaussJordan.form" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="false" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.STATE" value="right" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="177" />
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="false" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE" value="left" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="270" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -103,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581316759422</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=".">
+      <created>1581391862283</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581391862283</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -111,7 +118,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Se ha actualizado hasta la multiplicacion de matrices" />
     <MESSAGE value="Se ha finalizado las caracteristicas principales" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se ha finalizado las caracteristicas principales" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="WindowStateProjectService">
     <state x="283" y="49" key="#Project_Structure" timestamp="1580949731262">
@@ -139,29 +147,29 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="470" y="179" key="#com.intellij.uiDesigner.palette.ComponentItemDialog/0.0.1366.768@0.0.1366.768" timestamp="1580862981455" />
-    <state x="325" y="0" key="CommitChangelistDialog2" timestamp="1581316758707">
+    <state x="325" y="0" key="CommitChangelistDialog2" timestamp="1581391861179">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="325" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1581316758707" />
-    <state width="1324" height="194" key="GridCell.Tab.0.bottom" timestamp="1581391090983">
+    <state x="325" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1581391861179" />
+    <state width="1324" height="184" key="GridCell.Tab.0.bottom" timestamp="1581651811692">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="194" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581391090983" />
+    <state width="1324" height="184" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581651811692" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580931536408" />
-    <state width="1324" height="194" key="GridCell.Tab.0.center" timestamp="1581391090981">
+    <state width="1324" height="184" key="GridCell.Tab.0.center" timestamp="1581651811690">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="194" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581391090981" />
+    <state width="1324" height="184" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581651811690" />
     <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580931536408" />
-    <state width="1324" height="194" key="GridCell.Tab.0.left" timestamp="1581391090980">
+    <state width="1324" height="184" key="GridCell.Tab.0.left" timestamp="1581651811689">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="194" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581391090980" />
+    <state width="1324" height="184" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581651811689" />
     <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580931536408" />
-    <state width="1324" height="194" key="GridCell.Tab.0.right" timestamp="1581391090982">
+    <state width="1324" height="184" key="GridCell.Tab.0.right" timestamp="1581651811691">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="194" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581391090982" />
+    <state width="1324" height="184" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581651811691" />
     <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580931536408" />
     <state width="1324" height="302" key="GridCell.Tab.1.bottom" timestamp="1581316831154">
       <screen x="0" y="0" width="1366" height="768" />
@@ -187,10 +195,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1366.768@0.0.1366.768" timestamp="1580873543136" />
-    <state x="283" y="120" key="Vcs.Push.Dialog.v2" timestamp="1581316762856">
+    <state x="283" y="120" key="Vcs.Push.Dialog.v2" timestamp="1581391864679">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="283" y="120" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1581316762856" />
+    <state x="283" y="120" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1581391864679" />
     <state x="661" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1580929360055">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -199,5 +207,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="497" y="285" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.768@0.0.1366.768" timestamp="1581310302041" />
+    <state x="458" y="269" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog" timestamp="1581651230153">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="458" y="269" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog/0.0.1366.768@0.0.1366.768" timestamp="1581651230153" />
   </component>
 </project>
